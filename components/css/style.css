@@ -1,0 +1,271 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial;
+
+}
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+    background: #816e64;
+    overflow-x: hidden;
+
+}
+
+.header {
+
+    width: 100%;
+    height: calc(100vh - 25vh);
+    background-image: url("../../assets/img/bolo-chocolate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.header h1 {
+
+    color: #a06646;
+
+}
+
+.header h2 {
+
+    color: #c9c1bc;
+
+}
+
+.container {
+
+    width: 100%;
+    height: calc(100vh - 25vh);
+    background-image: linear-gradient(to bottom, #00000069, #000000c5, #000);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.header .container .detalhe {
+
+    text-decoration: underline;
+    color: #a06646;
+    text-transform: uppercase;
+
+}
+
+.header .container .button-action a {
+
+    padding: 1rem 10rem;
+    border-radius: 4px;
+    background-color: #3c261a;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0.5px 0.5px 6px #6f594d;
+    letter-spacing: 0.5rem;
+    font-size: 1.3rem;
+    box-shadow: 3px 4px 6px #93837a;
+    transition: 0.5s ease-in-out;
+
+}
+
+.header .container .button-action a:hover {
+
+    background: #4b3021;
+
+}
+
+.main {
+
+    width: 100%;
+    height: calc(100vh - 25vh);
+
+}
+
+.main .ingredientes {
+
+    display: grid;
+    padding: 30px 30px;
+    margin: 60px;
+    gap: 30px;
+
+}
+
+.main .ingredientes h3 {
+
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #4b3021;
+
+
+}
+
+.main .ingredientes-list {
+
+    height: 25rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 10px;
+    gap: 30px;
+    border: 3px solid #4b3021;
+    border-radius: 4px;
+    position: relative;
+    place-items: center;
+
+}
+
+span {
+
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    grid-column: 1/-1;
+    border: 3px solid #4b3021;
+    display: inline-block;
+    place-self: start start;
+    padding: 5px 10px;
+    border-radius: 4px;
+    position: absolute;
+    top: -23px;
+    left: 20px;
+    background-color: #4b3021;
+
+}
+
+.main .ingredientes .ingredientes-list .grupos {
+
+
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    margin-top: 15px;
+    gap: 20px;
+
+}
+
+.main .ingredientes .ingredientes-list .grupos .ingrediente-item {
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #191919;
+    font-size: 21px;
+
+}
+
+/* background */
+
+.background {
+
+    width: 100%;
+    height: calc(100vh - 25vh);
+    background-image: url("../../assets/img/bolo-chocolate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.veja-mais {
+
+    font-size: 64px;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #fff;
+    font-size: 5em; color: #3c261a;
+
+}
+
+.modo-de-preparo {
+
+    height: 25rem;
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    padding: 70px;
+    gap: 30px;
+    border: 3px solid #4b3021;
+    border-radius: 4px;
+    position: relative;
+    place-items: center;
+    margin: 60px;
+    list-style-type: decimal;
+
+}
+
+.modo-de-preparo-list {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.modo-de-preparo .modo-de-preparo-item {
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #191919;
+    font-size: 21px;
+    place-items: center;
+
+}
+
+
+.footer {
+
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 8vh;
+    background: #2d1d14;
+    color: #93837a;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer p a {
+
+    color: #f59d6c;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+    padding: 5px;
+
+}
+
+.footer p a:hover {
+
+    color: #b17251;
+    padding: 5px;
+
+}
+
+::-webkit-scrollbar {
+
+    width: 15px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background-color: #4b3021;
+    border-radius: 20px;
+
+}
