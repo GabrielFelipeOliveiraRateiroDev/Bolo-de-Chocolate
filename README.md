@@ -34,6 +34,10 @@
 
 ---
 
+Usei alguns prints, mas considere em acessar o link abaixo para a melhor experiência de usuário:
+
+[Receita de Bolo de Chocolate -> ]()
+
 #### Autoria | Inspiração
 
 -> O Projeto foi criado por [Gabriel Felipe de Oliveira Rateiro](https://github.com/GabrielFelipeOliveiraRateiroDev) </br>
