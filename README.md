@@ -36,7 +36,8 @@
 
 Usei alguns prints, mas considere em acessar o link abaixo para a melhor experiência de usuário:
 
-[Receita de Bolo de Chocolate -> ]()
+[Receita de Bolo de Chocolate -> ](https://gabrielfelipeoliveirarateirodev.github.io/Bolo-de-Chocolate/
+)
 
 #### Autoria | Inspiração
 
